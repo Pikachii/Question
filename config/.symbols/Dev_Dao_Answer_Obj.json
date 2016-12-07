@@ -1,0 +1,122 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "Dev_Dao_Answer_Obj",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p2800000D95KHAAZ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000D95KHAAZ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 15
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getAnswerByQuestionIdsAndRespondant",
+            "parameters": [
+                {
+                    "name": "questionIdSet",
+                    "type": "Set"
+                },
+                {
+                    "name": "respondantId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 7
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getInstance",
+            "parameters": [],
+            "references": [],
+            "returnType": "Dev_Dao_Answer_Obj",
+            "type": null
+        }
+    ],
+    "name": "Dev_Dao_Answer_Obj",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 3
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dao",
+            "references": [],
+            "type": "Dev_Dao_Answer_Obj"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "Dev_Dao_Answer_Obj",
+        "references": [],
+        "type": "Dev_Dao_Answer_Obj"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "questionIdSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "respondantId",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+<apex:page controller="Dev_CL_Examination" action="{!init}" sidebar="false" tabStyle="Dev_Examination__tab">
+    <style>
+        .buttons{
+            position : absolute;
+            left : 40%;
+        }
+
+        .wrapper{
+          display: block;
+          position: relative;
+        }
+
+        html,
+        body {
+          height:100%;
+            width:              100%;
+        }
+        
+        .loading{
+        top:                0;
+        left:               0;
+        height:             100%;
+        width:              100%;
+          display: none;
+          position: fixed;
+          margin : 40px;
+          opacity:          0.5;
+          z-index:1;
+        }
+        
+        .loader{
+        }
+    </style>
+
+    <div class="loading">
+        <div class="loader" align="center">
+            <img src="{!$Resource.Loading_Gif_StatResource}" width="80" height="80" alt="Now Loading..." />
+            <br />Now Loading...
+        </div>
+    </div>
+    <apex:form id="Answer">
+        <apex:actionFunction name="countdown" action="{!countdown}" reRender="timer" />
+        <apex:actionFunction name="rerenderForm" oncomplete="unlockload();"/>
+            <div >
+            <apex:outputLabel id="timer" value="{!'残り時間: ' & RIGHT('00' & TEXT(FLOOR(timer / 3600)), 2) & ':' & RIGHT('00' & TEXT(FLOOR(MOD(timer, 3600) / 60)), 2) & ':' & RIGHT('00' & TEXT( MOD(timer, 60)), 2)}" />
+            </div>
+        <div class="wrapper" >
+            <div>
+            <apex:outputLabel value="{!'第' & TEXT(questionNo) & '問 / 全' & TEXT(examDto.questionNum) & '問'}"/>
+            </div>
+            <div>
+            <apex:outputLabel value="{!exam.questionSentence}" escape="false"/>
+            </div>
+            <div>
+            <apex:selectRadio value="{!exam.answer}" layout="pageDirection" rendered="{!exam.isSingle}">
+                <apex:selectOptions value="{!exam.options}"/>
+            </apex:selectRadio>
+            <apex:selectCheckboxes value="{!selectAnswerMulti}" layout="pageDirection" rendered="{!!exam.isSingle}">
+                <apex:selectOptions value="{!exam.options}"/>
+            </apex:selectCheckboxes>
+            </div>
+            <div>
+             <apex:commandButton value="Check Answer" action="{!checkAnswer}" rendered="{!examBtnDisp.isShowCheckAnswerBtn}" rerender="Answer"/>
+            <apex:outputLabel value="{!answer}" rendered="{!NOT(examBtnDisp.isShowCheckAnswerBtn)}"/>
+            </div>
+            <div class="buttons">
+                <apex:commandButton value="prev" rendered="{!examBtnDisp.isShowPrevBtn}" onclick="lockload();" action="{!prev}" reRender="Answer" />
+
+                <apex:commandButton value="next" rendered="{!examBtnDisp.isShowNextBtn}" onclick="lockload();" action="{!next}" reRender="Answer" />
+
+                <apex:commandButton value="submit" action="{!submit}" onclick="return submitConfirm();"/>
+            </div>
+        </div>
+    </apex:form>
+    <script>
+
+        var timeId;
+        var timeStop = false;
+        function submitConfirm(){
+            return window.confirm('回答を提出しますか？');
+        }
+
+        function callCountDown(){
+            if(!timeStop){
+              timeId = setTimeout(callCountDown, 1000);
+             countdown();
+            }
+        }
+
+        callCountDown();
+
+        function cancelCountDown(){
+            cancelTimeout(timeId);
+        }
+
+        var load = document.querySelector('.loading');
+        var wrap = document.querySelector('.wrapper');
+
+        function lockload(){
+          timeStop = true;
+          wrap.style.display = 'none'; //wrapperを非表示
+          load.style.display = 'block'; //#loadingを表示
+          setTimeout(unlockload, 3000);
+        }
+
+        function unlockload() {
+          load.style.display = 'none'; //#loadingを非表示
+          wrap.style.display = 'block'; //wrapperを表示
+          timeStop = false;
+        callCountDown();
+        }
+    </script>
+</apex:page>

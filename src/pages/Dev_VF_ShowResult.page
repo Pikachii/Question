@@ -1,0 +1,22 @@
+<apex:page showHeader="true" sidebar="false" controller="Dev_CL_ShowResult" action="{!init}">
+    <apex:form >
+    	<div>
+	        <apex:outputLabel value="{!'実施試験名： ' & result.Dev_EH_TrialExam__r.Name}"/>
+	        <p />
+	        <apex:outputLabel value="{!'実施者： ' & result.Dev_EH_ExamTrialist__r.Name}"/>
+	        <p />
+	        <apex:outputLabel value="{!'結果： ' & result.Dev_EH_ExamResult__c}"/>
+	        <p />
+	    </div>
+        <apex:pageBlock title="結果を送信する場合はこちら">
+        	<apex:pageBlockSection columns="1">
+	        	<apex:inputText label="メールアドレス" value="{!email}"/>
+	        	<apex:inputCheckbox label="間違った問題のみ送信する" value="{!sendOnlyIncorrect}" />
+        	</apex:pageBlockSection>
+        	<apex:pageBlockButtons location="bottom">
+        		<apex:commandButton value="メール送信" action="{!createEmail}"/>
+        		<apex:commandButton value="終了" action="{!gotoHome}"/>
+        	</apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

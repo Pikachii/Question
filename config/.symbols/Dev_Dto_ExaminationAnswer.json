@@ -1,0 +1,124 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 16
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Dev_Dto_ExaminationAnswer",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p2800000D94FUAAZ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000D94FUAAZ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 18
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "convertToAnswer",
+            "parameters": [],
+            "references": [],
+            "returnType": "Dev_Answer_Obj__c",
+            "type": null
+        }
+    ],
+    "name": "Dev_Dto_ExaminationAnswer",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "questionId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "respondantId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "correctAnswer",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 13
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "answer",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "Dev_Dto_ExaminationAnswer",
+        "references": [],
+        "type": "Dev_Dto_ExaminationAnswer"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "anData",
+            "references": [],
+            "type": "Dev_Answer_Obj__c"
+        }
+    ]
+}

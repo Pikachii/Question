@@ -1,0 +1,15 @@
+<apex:page controller="Dev_CL_RadarChartController" sidebar="false">
+	<style>
+		div.chart {position:static; top:500px; left:100px }
+	</style>
+	<apex:chart height="700" width="700" legend="true" data="{!data}">
+	    <apex:legend position="left"/>
+	    <apex:axis type="Radial" position="radial">
+	        <apex:chartLabel />
+	    </apex:axis>
+		    <apex:radarSeries xField="name" yField="data1" tips="true" opacity="0.4"/>
+		    <apex:radarSeries xField="name" yField="data2" tips="true" opacity="0.4"/>
+		    <apex:radarSeries xField="name" yField="data3" tips="true" 
+		        markerType="cross" strokeWidth="2" strokeColor="#f33" opacity="0.4"/>
+	</apex:chart>
+</apex:page>

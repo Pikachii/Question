@@ -1,0 +1,32 @@
+<apex:page controller="Dev_CL_ExaminationSetting" sidebar="false">
+    <apex:form >
+        <apex:pageMessages />
+        <apex:pageblock mode="edit" id="block">
+                <apex:pageBlockButtons location="bottom">
+                    <apex:commandButton value="演習開始" action="{!start}"/>
+                </apex:pageBlockButtons>
+            <apex:outputPanel layout="block">
+            <apex:pageBlockSection title="設定内容">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="実施試験"/>
+                    <apex:outputPanel layout="block" styleClass="requiredInput">
+                        <div class="requiredBlock"></div>
+                        <apex:selectList value="{!examMaster}" size="1" multiselect="false">
+                            <apex:selectOptions value="{!examMasterList}"/>
+                        </apex:selectList>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="回答者"/>
+                    <apex:outputPanel layout="block" styleClass="requiredInput">
+                        <div class="requiredBlock"></div>
+                        <apex:selectList value="{!respondant}" size="1" multiselect="false">
+                            <apex:selectOptions value="{!respondantList}"/>
+                        </apex:selectList>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:outputPanel>
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

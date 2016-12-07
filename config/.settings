@@ -1,0 +1,19 @@
+{
+    "projectName": "Question",
+    "username": "question@comture.com",
+    "id": "80ddb380-9a90-11e6-b905-8f678eac766b",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "",
+    "workspace": "C:\\CSL\\project",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomObject",
+        "StaticResource"
+    ],
+    "orgType": "developer",
+    "instanceUrl": "https://ap2.salesforce.com"
+}

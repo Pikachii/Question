@@ -1,0 +1,161 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "Dev_Dao_Question_Obj",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p2800000D8dvhAAB",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000D8dvhAAB",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 15
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getQuestionByAnyNumber",
+            "parameters": [
+                {
+                    "name": "questionNo",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 7
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getInstance",
+            "parameters": [],
+            "references": [],
+            "returnType": "Dev_Dao_Question_Obj",
+            "type": null
+        }
+    ],
+    "name": "Dev_Dao_Question_Obj",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 3
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dao",
+            "references": [],
+            "type": "Dev_Dao_Question_Obj"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Dev_Dao_Question_Obj",
+        "references": [],
+        "type": "Dev_Dao_Question_Obj"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "questionNo",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "allQuestionList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "randomNumSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "num",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "targetQuestionList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "targetNum",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}
