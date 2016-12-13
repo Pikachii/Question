@@ -7,10 +7,13 @@
     "loginUrl": "",
     "workspace": "C:\\CSL\\project",
     "subscription": [
+        "ActionLinkGroupTemplate",
+        "AnalyticSnapshot",
         "ApexClass",
         "ApexComponent",
         "ApexPage",
         "ApexTrigger",
+        "CustomLabels",
         "CustomObject",
         "StaticResource"
     ],

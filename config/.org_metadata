@@ -1,5 +1,49 @@
 [
     {
+        "id": "ActionLinkGroupTemplate",
+        "type": {
+            "directoryName": "actionLinkGroupTemplates",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "actionLinkGroupTemplate",
+            "xmlName": "ActionLinkGroupTemplate"
+        },
+        "title": "ActionLinkGroupTemplate",
+        "xmlName": "ActionLinkGroupTemplate",
+        "text": "ActionLinkGroupTemplate",
+        "key": "ActionLinkGroupTemplate",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": []
+    },
+    {
+        "id": "AnalyticSnapshot",
+        "type": {
+            "directoryName": "analyticSnapshots",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "snapshot",
+            "xmlName": "AnalyticSnapshot"
+        },
+        "title": "AnalyticSnapshot",
+        "xmlName": "AnalyticSnapshot",
+        "text": "AnalyticSnapshot",
+        "key": "AnalyticSnapshot",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": []
+    },
+    {
         "id": "ApexClass",
         "type": {
             "directoryName": "classes",
@@ -265,13 +309,35 @@
             {
                 "createdById": "00528000005B8SJAA0",
                 "createdByName": "問題出題 シス管",
+                "createdDate": "2016-11-15T00:15:33.000Z",
+                "fileName": "classes/Dev_BT_DeleteCaData.cls",
+                "fullName": "Dev_BT_DeleteCaData",
+                "id": "ApexClass.Dev_BT_DeleteCaData",
+                "lastModifiedById": "00528000005B8SJAA0",
+                "lastModifiedByName": "問題出題 シス管",
+                "lastModifiedDate": "2016-11-15T00:24:01.000Z",
+                "manageableState": "unmanaged",
+                "type": "ApexClass",
+                "leaf": true,
+                "title": "Dev_BT_DeleteCaData",
+                "checked": false,
+                "text": "Dev_BT_DeleteCaData",
+                "cls": "",
+                "level": 2,
+                "isFolder": false,
+                "children": [],
+                "select": false
+            },
+            {
+                "createdById": "00528000005B8SJAA0",
+                "createdByName": "問題出題 シス管",
                 "createdDate": "2016-10-24T09:18:53.000Z",
                 "fileName": "classes/Dev_CL_Examination.cls",
                 "fullName": "Dev_CL_Examination",
                 "id": "ApexClass.Dev_CL_Examination",
                 "lastModifiedById": "00528000005B8SJAA0",
                 "lastModifiedByName": "問題出題 シス管",
-                "lastModifiedDate": "2016-11-01T04:49:06.000Z",
+                "lastModifiedDate": "2016-11-30T07:23:07.000Z",
                 "manageableState": "unmanaged",
                 "type": "ApexClass",
                 "leaf": true,
@@ -337,7 +403,7 @@
                 "id": "ApexClass.Dev_CL_ShowResult",
                 "lastModifiedById": "00528000005B8SJAA0",
                 "lastModifiedByName": "問題出題 シス管",
-                "lastModifiedDate": "2016-11-14T08:04:27.000Z",
+                "lastModifiedDate": "2016-11-30T09:26:37.000Z",
                 "manageableState": "unmanaged",
                 "type": "ApexClass",
                 "leaf": true,
@@ -507,13 +573,35 @@
             {
                 "createdById": "00528000005B8SJAA0",
                 "createdByName": "問題出題 シス管",
+                "createdDate": "2016-11-15T00:19:06.000Z",
+                "fileName": "classes/Dev_SC_DeleteCaData.cls",
+                "fullName": "Dev_SC_DeleteCaData",
+                "id": "ApexClass.Dev_SC_DeleteCaData",
+                "lastModifiedById": "00528000005B8SJAA0",
+                "lastModifiedByName": "問題出題 シス管",
+                "lastModifiedDate": "2016-11-15T00:19:40.000Z",
+                "manageableState": "unmanaged",
+                "type": "ApexClass",
+                "leaf": true,
+                "title": "Dev_SC_DeleteCaData",
+                "checked": false,
+                "text": "Dev_SC_DeleteCaData",
+                "cls": "",
+                "level": 2,
+                "isFolder": false,
+                "children": [],
+                "select": false
+            },
+            {
+                "createdById": "00528000005B8SJAA0",
+                "createdByName": "問題出題 シス管",
                 "createdDate": "2016-11-14T08:12:41.000Z",
                 "fileName": "classes/Dev_TR_DeleteCaData.cls",
                 "fullName": "Dev_TR_DeleteCaData",
                 "id": "ApexClass.Dev_TR_DeleteCaData",
                 "lastModifiedById": "00528000005B8SJAA0",
                 "lastModifiedByName": "問題出題 シス管",
-                "lastModifiedDate": "2016-11-14T08:43:12.000Z",
+                "lastModifiedDate": "2016-11-15T00:11:21.000Z",
                 "manageableState": "unmanaged",
                 "type": "ApexClass",
                 "leaf": true,
@@ -860,6 +948,28 @@
             {
                 "createdById": "00528000005B8SJAA0",
                 "createdByName": "問題出題 シス管",
+                "createdDate": "2016-12-13T04:41:46.000Z",
+                "fileName": "components/Dev_VF_Loading_Component.component",
+                "fullName": "Dev_VF_Loading_Component",
+                "id": "ApexComponent.Dev_VF_Loading_Component",
+                "lastModifiedById": "00528000005B8SJAA0",
+                "lastModifiedByName": "問題出題 シス管",
+                "lastModifiedDate": "2016-12-13T04:41:46.000Z",
+                "manageableState": "unmanaged",
+                "type": "ApexComponent",
+                "leaf": true,
+                "title": "Dev_VF_Loading_Component",
+                "checked": false,
+                "text": "Dev_VF_Loading_Component",
+                "cls": "",
+                "level": 2,
+                "isFolder": false,
+                "children": [],
+                "select": false
+            },
+            {
+                "createdById": "00528000005B8SJAA0",
+                "createdByName": "問題出題 シス管",
                 "createdDate": "2016-11-07T05:44:30.000Z",
                 "fileName": "components/SiteFooter.component",
                 "fullName": "SiteFooter",
@@ -1153,7 +1263,7 @@
                 "id": "ApexPage.Dev_VF_Examination",
                 "lastModifiedById": "00528000005B8SJAA0",
                 "lastModifiedByName": "問題出題 シス管",
-                "lastModifiedDate": "2016-11-09T22:47:36.000Z",
+                "lastModifiedDate": "2016-12-13T05:49:06.000Z",
                 "manageableState": "unmanaged",
                 "type": "ApexPage",
                 "leaf": true,
@@ -1565,6 +1675,54 @@
         "children": []
     },
     {
+        "id": "CustomLabels",
+        "type": {
+            "childXmlNames": [
+                "CustomLabel"
+            ],
+            "directoryName": "labels",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "labels",
+            "xmlName": "CustomLabels"
+        },
+        "title": "CustomLabels",
+        "xmlName": "CustomLabels",
+        "text": "CustomLabels",
+        "key": "CustomLabels",
+        "level": 1,
+        "hasChildTypes": true,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": [
+            {
+                "createdById": "00528000005B8SJAA0",
+                "createdByName": "問題出題 シス管",
+                "createdDate": "1970-01-01T00:00:00.000Z",
+                "fileName": "labels/CustomLabels.labels",
+                "fullName": "CustomLabels",
+                "id": "CustomLabels.CustomLabels",
+                "lastModifiedById": "00528000005B8SJAA0",
+                "lastModifiedByName": "問題出題 シス管",
+                "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+                "namespacePrefix": "",
+                "type": "CustomLabels",
+                "leaf": false,
+                "title": "CustomLabels",
+                "checked": false,
+                "text": "CustomLabels",
+                "cls": "folder",
+                "level": 2,
+                "isFolder": true,
+                "children": [],
+                "select": false
+            }
+        ]
+    },
+    {
         "id": "CustomObject",
         "type": {
             "childXmlNames": [
@@ -1688,16 +1846,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Account.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -1742,6 +1890,16 @@
                                 "title": "SaveEdit",
                                 "isFolder": false,
                                 "id": "CustomObject.Account.actionOverrides.SaveEdit",
+                                "select": false
+                            },
+                            {
+                                "leaf": true,
+                                "checked": false,
+                                "level": 4,
+                                "text": "SmsHighlightAction",
+                                "title": "SmsHighlightAction",
+                                "isFolder": false,
+                                "id": "CustomObject.Account.actionOverrides.SmsHighlightAction",
                                 "select": false
                             },
                             {
@@ -2606,16 +2764,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Asset.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "New",
                                 "title": "New",
                                 "isFolder": false,
@@ -2981,16 +3129,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Campaign.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Campaign.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -3965,16 +4103,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Case.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -4591,16 +4719,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Contact.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -4655,6 +4773,16 @@
                                 "title": "SaveEdit",
                                 "isFolder": false,
                                 "id": "CustomObject.Contact.actionOverrides.SaveEdit",
+                                "select": false
+                            },
+                            {
+                                "leaf": true,
+                                "checked": false,
+                                "level": 4,
+                                "text": "SmsHighlightAction",
+                                "title": "SmsHighlightAction",
+                                "isFolder": false,
+                                "id": "CustomObject.Contact.actionOverrides.SmsHighlightAction",
                                 "select": false
                             },
                             {
@@ -5303,16 +5431,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Contract.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Contract.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -6932,16 +7050,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_Answer_Obj__c.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -7171,16 +7279,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_CheckAnswerMail_Obj__c.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -7384,16 +7482,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Dev_ExamHistory_Obj__c.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_ExamHistory_Obj__c.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -7623,16 +7711,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Dev_ExaminationMaster_Obj__c.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_ExaminationMaster_Obj__c.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -7888,16 +7966,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_ProblemAndRequirementManage_Obj__c.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -8127,16 +8195,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_QuestionCategory_Obj__c.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -8288,16 +8346,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Dev_Question_Obj__c.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_Question_Obj__c.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -8767,16 +8815,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Dev_Respondant_Obj__c.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -8956,16 +8994,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.DuplicateRecordItem.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -9107,16 +9135,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.DuplicateRecordSet.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.DuplicateRecordSet.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -9591,16 +9609,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Event.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Event.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -10264,16 +10272,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Lead.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -10308,6 +10306,16 @@
                                 "title": "SaveEdit",
                                 "isFolder": false,
                                 "id": "CustomObject.Lead.actionOverrides.SaveEdit",
+                                "select": false
+                            },
+                            {
+                                "leaf": true,
+                                "checked": false,
+                                "level": 4,
+                                "text": "SmsHighlightAction",
+                                "title": "SmsHighlightAction",
+                                "isFolder": false,
+                                "id": "CustomObject.Lead.actionOverrides.SmsHighlightAction",
                                 "select": false
                             },
                             {
@@ -11063,16 +11071,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Opportunity.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Opportunity.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -12061,16 +12059,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Order.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -12554,16 +12542,6 @@
                                 "title": "EditAllProduct",
                                 "isFolder": false,
                                 "id": "CustomObject.OrderItem.actionOverrides.EditAllProduct",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.OrderItem.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -13216,16 +13194,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Product2.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -13624,16 +13592,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Solution.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -13863,16 +13821,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.StreamingChannel.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "List",
                                 "title": "List",
                                 "isFolder": false,
@@ -14002,16 +13950,6 @@
                                 "title": "Edit",
                                 "isFolder": false,
                                 "id": "CustomObject.Task.actionOverrides.Edit",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.Task.actionOverrides.Follow",
                                 "select": false
                             },
                             {
@@ -14335,16 +14273,6 @@
                                 "leaf": true,
                                 "checked": false,
                                 "level": 4,
-                                "text": "Follow",
-                                "title": "Follow",
-                                "isFolder": false,
-                                "id": "CustomObject.User.actionOverrides.Follow",
-                                "select": false
-                            },
-                            {
-                                "leaf": true,
-                                "checked": false,
-                                "level": 4,
                                 "text": "FreezeUserAction",
                                 "title": "FreezeUserAction",
                                 "isFolder": false,
@@ -14399,6 +14327,16 @@
                                 "title": "SaveEdit",
                                 "isFolder": false,
                                 "id": "CustomObject.User.actionOverrides.SaveEdit",
+                                "select": false
+                            },
+                            {
+                                "leaf": true,
+                                "checked": false,
+                                "level": 4,
+                                "text": "SmsHighlightAction",
+                                "title": "SmsHighlightAction",
+                                "isFolder": false,
+                                "id": "CustomObject.User.actionOverrides.SmsHighlightAction",
                                 "select": false
                             },
                             {
@@ -14679,7 +14617,7 @@
                 "id": "StaticResource.Loading_Gif_StatResource",
                 "lastModifiedById": "00528000005B8SJAA0",
                 "lastModifiedByName": "問題出題 シス管",
-                "lastModifiedDate": "2016-11-08T07:56:47.000Z",
+                "lastModifiedDate": "2016-11-30T03:43:38.000Z",
                 "manageableState": "unmanaged",
                 "type": "StaticResource",
                 "leaf": true,

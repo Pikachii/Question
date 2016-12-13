@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -92,29 +88,31 @@
         <fullName>Dev_PR_Status__c</fullName>
         <externalId>false</externalId>
         <label>ステータス</label>
-        <picklist>
-            <picklistValues>
-                <fullName>未対応</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>調査中</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>対応中</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>対応完了</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>未対応</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>調査中</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>対応中</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>対応完了</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Dev_PR_TargetComponent__c</fullName>
@@ -130,25 +128,27 @@
         <fullName>Dev_PR_Type__c</fullName>
         <externalId>false</externalId>
         <label>種別</label>
-        <picklist>
-            <picklistValues>
-                <fullName>課題</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>要望</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>その他</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>課題</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>要望</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>その他</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>課題・要望管理</label>
     <listViews>

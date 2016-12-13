@@ -94,11 +94,18 @@
             "xmlName": "Group"
         },
         {
-            "directoryName": "globalPicklists",
+            "directoryName": "globalValueSets",
             "inFolder": false,
             "metaFile": false,
-            "suffix": "globalPicklist",
-            "xmlName": "GlobalPicklist"
+            "suffix": "globalValueSet",
+            "xmlName": "GlobalValueSet"
+        },
+        {
+            "directoryName": "standardValueSets",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "standardValueSet",
+            "xmlName": "StandardValueSet"
         },
         {
             "directoryName": "customPermissions",
@@ -230,6 +237,13 @@
             "xmlName": "CustomApplication"
         },
         {
+            "directoryName": "EmbeddedServiceConfig",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "EmbeddedServiceConfig",
+            "xmlName": "EmbeddedServiceConfig"
+        },
+        {
             "directoryName": "flows",
             "inFolder": false,
             "metaFile": false,
@@ -325,6 +339,20 @@
             "xmlName": "CustomObjectTranslation"
         },
         {
+            "directoryName": "globalValueSetTranslations",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "globalValueSetTranslation",
+            "xmlName": "GlobalValueSetTranslation"
+        },
+        {
+            "directoryName": "standardValueSetTranslations",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "standardValueSetTranslation",
+            "xmlName": "StandardValueSetTranslation"
+        },
+        {
             "directoryName": "classes",
             "inFolder": false,
             "metaFile": true,
@@ -337,6 +365,13 @@
             "metaFile": true,
             "suffix": "trigger",
             "xmlName": "ApexTrigger"
+        },
+        {
+            "directoryName": "testSuites",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "testSuite",
+            "xmlName": "ApexTestSuite"
         },
         {
             "directoryName": "profiles",
@@ -384,6 +419,20 @@
             "xmlName": "MatchingRules"
         },
         {
+            "directoryName": "duplicateRules",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "duplicateRule",
+            "xmlName": "DuplicateRule"
+        },
+        {
+            "directoryName": "cleanDataServices",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "cleanDataService",
+            "xmlName": "CleanDataService"
+        },
+        {
             "directoryName": "authproviders",
             "inFolder": false,
             "metaFile": false,
@@ -403,6 +452,13 @@
             "metaFile": false,
             "suffix": "channelLayout",
             "xmlName": "ChannelLayout"
+        },
+        {
+            "directoryName": "contentassets",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "asset",
+            "xmlName": "ContentAsset"
         },
         {
             "childXmlNames": [
@@ -470,6 +526,20 @@
             "metaFile": false,
             "suffix": "network",
             "xmlName": "Network"
+        },
+        {
+            "directoryName": "communityThemeDefinitions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "communityThemeDefinition",
+            "xmlName": "CommunityThemeDefinition"
+        },
+        {
+            "directoryName": "communityTemplateDefinitions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "communityTemplateDefinition",
+            "xmlName": "CommunityTemplateDefinition"
         },
         {
             "childXmlNames": [

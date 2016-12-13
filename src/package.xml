@@ -13,6 +13,10 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -69,5 +73,5 @@
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
     </types>
-    <version>36.0</version>
+    <version>38.0</version>
 </Package>
